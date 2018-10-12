@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase2;
+package ejemplo;
 
 /**
  *
  * @author TOSHIBA
  */
-public class Clase2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+public class main {
+     public static void main(String[] args) {
         // TODO code application logic here
         Precio p;
         p = new Precio();
-        System.out.println(p.euros);
+        p.agregar(20.2);
+        System.out.println(p.obtener());
         
     }
-
 }
